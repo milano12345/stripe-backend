@@ -5,9 +5,20 @@
   "repository": "https://github.com/milano12345/stripe-backend.git",
   "author": "milano12345 <dmilano857@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "jest --watch --verbose",
+    "start": "node index.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
-    "helmet": "^3.21.2"
+    "helmet": "^3.21.2",
+    "stripe": "^7.14.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
   }
 }
